@@ -21,6 +21,10 @@
                 "input": "public"
               }
             ],
+            "index": {
+              "input": "src/index.html",
+              "output": "app.html"
+            },
             "styles": [
               "src/styles.css"
             ],
