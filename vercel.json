@@ -1,6 +1,5 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "outputDirectory": "dist/angular20ssr",
   "rewrites": [
     {
       "source": "/(.*)",
@@ -9,7 +8,7 @@
   ],
   "functions": {
     "api/index.mjs": {
-      "includeFiles": "dist/angular20ssr/server"
+      "includeFiles": "dist/angular20ssr/**"
     }
   }
 }

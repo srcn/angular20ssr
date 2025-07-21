@@ -7,7 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:angular20ssr": "node dist/angular20ssr/server/server.mjs"
+    "serve:ssr:angular20ssr": "node dist/angular20ssr/server/server.mjs",
+    "postbuild": "node scripts/postbuild.mjs"
   },
   "prettier": {
     "overrides": [
