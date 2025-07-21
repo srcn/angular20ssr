@@ -1,6 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "name": "angular20starter",
+  "outputDirectory": "dist/angular20ssr",
   "rewrites": [
     {
       "source": "/(.*)",
@@ -9,7 +9,7 @@
   ],
   "functions": {
     "api/index.mjs": {
-      "includeFiles": "dist/angular20starter/**"
+      "includeFiles": "dist/angular20ssr/**"
     }
   }
 }
